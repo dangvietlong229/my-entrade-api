@@ -1,18 +1,17 @@
 {
-  "name": "my-entrade-api",
+  "name": "my-entrade-proxy",
   "version": "1.0.0",
+  "description": "A Node.js proxy for Entrade API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0" // Ensure this is here!
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
-  }
+  "license": "ISC"
 }
