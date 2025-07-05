@@ -21,7 +21,7 @@ app.use(cors({
     // domain of your deployed React application. If you also want to allow
     // local development, you can add 'http://localhost:3000' (or your React app's local port)
     // to an array, like: ['https://my-stock-order-book.web.app', 'http://localhost:3000']
-    origin: 'https://my-stock-order-book.web.app'
+    origin: ['https://my-stock-order-book.web.app', 'http://localhost:3000']
 }));
 
 // --- Proxy Endpoint for Entrade Stock Prices ---
